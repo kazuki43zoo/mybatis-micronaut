@@ -1,6 +1,7 @@
 # mybatis-micronaut
 
 [![Build Status](https://travis-ci.org/kazuki43zoo/mybatis-micronaut.svg?branch=master)](https://travis-ci.org/kazuki43zoo/mybatis-micronaut)
+[![Coverage Status](https://coveralls.io/repos/github/kazuki43zoo/mybatis-micronaut/badge.svg?branch=master)](https://coveralls.io/github/kazuki43zoo/mybatis-micronaut?branch=master)
 
 The mybatis-micronaut is the bridge module to use MyBatis easily on Micronaut Framework.
 
