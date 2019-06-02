@@ -24,6 +24,16 @@ If you enable the declarative Spring based transaction management and add the `m
 > * Support to inject mapper bean without the `mybatis-spring` module(= without declarative spring based transaction management). This feature is requested via the [MyBatis's user mailing list](https://groups.google.com/forum/#!topic/mybatis-user/-sW62H_1Quw).
 > * etc ...
 
+## How to install
+
+This artifact does not deploy to the public maven repository yet because under developing.
+Therefore, you need to install to the your local repository if you want to try this artifact.
+
+```
+$ git clone https://github.com/kazuki43zoo/mybatis-micronaut.git
+$ cd mybatis-micronaut
+$ ./mvnw install
+```
 
 ## Standard usage
 
@@ -36,7 +46,7 @@ Maven:
   <dependency>
     <groupId>org.mybatis.micronaut</groupId>
     <artifactId>mybatis-micronaut-config</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
   </dependency>
 </dependencies>
 ```
@@ -45,7 +55,7 @@ Gradle:
 
 ```groovy
 dependencies {
-  compile 'org.mybatis.micronaut:mybatis-micronaut-config:1.0.0'
+  compile 'org.mybatis.micronaut:mybatis-micronaut-config:1.0.0-SNAPSHOT'
 }
 ```
 
@@ -114,7 +124,7 @@ Maven:
   <dependency>
     <groupId>org.mybatis.micronaut</groupId>
     <artifactId>mybatis-micronaut-config</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
   </dependency>
   <!-- Add following artifacts for enabling the Spring based transaction management -->
   <dependency>
@@ -139,7 +149,7 @@ Gradle:
 
 ```groovy
 dependencies {
-  compile 'org.mybatis.micronaut:mybatis-micronaut-config:1.0.0'
+  compile 'org.mybatis.micronaut:mybatis-micronaut-config:1.0.0-SNAPSHOT'
   // Add following artifacts for enabling the Spring based transaction management
   compile 'io.micronaut:micronaut-spring:1.1.2'
   compile 'org.springframework:spring-jdbc:5.1.7.RELEASE'
