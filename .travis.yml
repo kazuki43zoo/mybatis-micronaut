@@ -6,4 +6,4 @@ jdk:
   - oraclejdk8
 
 after_success:
-  - if [ $TRAVIS_JDK_VERSION == "oraclejdk8" ]; then ./mvnw jacoco:report coveralls:report fi
+  - if [[ $TRAVIS_JDK_VERSION == "oraclejdk8" ]]; then ./mvnw jacoco:report coveralls:report; fi
