@@ -18,7 +18,7 @@ If you enable the declarative Spring based transaction management and add the `m
 > **NOTE : Additional feature candidates**
 >
 > * Support to use the GraalVM (Will plan to provide `native-image.properties`, `reflect.json` and so on ...)
-> * Support to inject mapper bean without the `mybatis-spring` module(= without declarative spring based transaction management). This feature need to 
+> * Support to inject mapper bean without the `mybatis-spring` module(= without declarative spring based transaction management). This feature is requested via the [MyBatis's user mailing list](https://groups.google.com/forum/#!topic/mybatis-user/-sW62H_1Quw).
 > * etc ...
 
 
