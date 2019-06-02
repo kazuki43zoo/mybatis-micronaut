@@ -31,6 +31,7 @@
 
   <properties>
     <module.name>org.mybatis.micronaut.samples</module.name>
+    <coveralls.skip>true</coveralls.skip>
   </properties>
 
   <build>
