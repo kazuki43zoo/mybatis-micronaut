@@ -71,6 +71,8 @@
     <!-- Dependencies plugin settings -->
     <module.name>org.mybatis.micronaut</module.name>
     <clirr.comparisonVersion>1.0.0</clirr.comparisonVersion>
+
+    <jacoco.version>0.8.4</jacoco.version>
   </properties>
 
   <dependencyManagement>
